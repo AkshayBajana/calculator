@@ -1,53 +1,70 @@
-Calculator
-This is a simple calculator application built with [your preferred language or framework] that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+# Java Calculator
 
-Features
-Add two numbers
-Subtract two numbers
-Multiply two numbers
-Divide two numbers
-Clear the input and reset the calculator
-Technologies Used
-[Your programming language] (e.g., JavaScript, Python, etc.)
-[Additional libraries or frameworks, if any]
-Installation
-Prerequisites
-[List of prerequisites, such as Node.js, Python, etc.]
-Steps to Run the Project Locally
-Clone the repository:
+A simple command-line calculator built with Java. This calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-bash
-Copy
-git clone https://github.com/your-username/calculator.git
-Navigate to the project directory:
+## Features
 
-bash
-Copy
-cd calculator
-Install the necessary dependencies:
+- **Addition**: Adds two numbers.
+- **Subtraction**: Subtracts one number from another.
+- **Multiplication**: Multiplies two numbers.
+- **Division**: Divides one number by another, with error handling for division by zero.
 
-For JavaScript (if using Node.js):
-bash
-Copy
-npm install
-For Python (if using any dependencies):
-bash
-Copy
-pip install -r requirements.txt
-Run the application:
+## Technologies Used
 
-For JavaScript:
-bash
-Copy
-npm start
-For Python:
-bash
-Copy
-python app.py
-Open your browser and go to http://localhost:3000 (or whatever address is specified for your application).
+- **Java**: The core language used for building the calculator.
 
-Usage
-Once the application is running, you can use the calculator's UI to input numbers and perform basic arithmetic operations. Click the buttons for the operation you want to perform, and the result will display on the screen.
+## Prerequisites
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Before running the project, you need to have the following installed:
+
+- **Java Development Kit (JDK)** version 8 or higher.
+    - You can download it from [Oracle's JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) or install it via your package manager.
+
+## Installation
+
+Follow these steps to set up the project on your local machine.
+
+1. **Clone the repository** to your local machine:
+
+    ```bash
+    git clone https://github.com/AkshayBajana/calculator.git
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```bash
+    cd calculator
+    ```
+
+3. **Compile the Java program**:
+
+    You can compile the Java file using the `javac` command. For example, if the main Java file is `Calculator.java`, you can run:
+
+    ```bash
+    javac Calculator.java
+    ```
+
+4. **Run the compiled program**:
+
+    After compilation, you can run the program using the `java` command:
+
+    ```bash
+    java Calculator
+    ```
+
+5. The program will prompt you to input two numbers and select an operation.
+
+## Usage
+
+Once the program is running, follow the on-screen instructions:
+
+1. The program will ask you to enter two numbers.
+2. Choose an operation from the following options:
+   - **1**: Add
+   - **2**: Subtract
+   - **3**: Multiply
+   - **4**: Divide
+3. The result will be displayed in the console.
+
+   
+
